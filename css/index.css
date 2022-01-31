@@ -81,12 +81,15 @@ button {
 .container-1 {
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 2rem;
   padding-bottom: 4rem;
+}
+.box-outer-container {
+  display: flex;
 }
 .container-1 h2 {
   width: 100%;
